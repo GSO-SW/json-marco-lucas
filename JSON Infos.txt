@@ -1,0 +1,18 @@
+AUFBAU:
+
+-Alle Eigenschaftsnamen müssen in Anführungszeichen notiert sein
+-Bei Zahlen sind führende 0en verboten und auf einen Dezimalpunkt
+ muss mindestens eine Ziffer folgen.
+-Unicodes wie 'Line Separator' (U+2028) und 
+ 'Paragraph Separator' (U+2029) sind erlaubt.
+-OBJEKTE werden in {} angegeben und können wie arrays beliebig
+ viele Werte speichern. Unterschied ist jeder Wert benötigt einen
+ Eindeutigen Schlüssel über denn man auf diesen Wert zugreifen
+ kann. 
+ Der Wert sollte von Anführungszeichen umgeben sein.
+ Ein Schlüsse-Werte-Paar wird so getrennt:  "Schlüssel": Wert
+-In ARRAYS können beliebig viele Wete durch Kommas in [] getrennt
+ werden um diese zu deklarieren. 
+ In jedem Eintrag können diese Datentypen genutzt werden
+ (Null, Boolean, Zahl, Zeichenkette, Array, Objekt)
+ 
